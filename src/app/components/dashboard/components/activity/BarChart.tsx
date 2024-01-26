@@ -16,16 +16,16 @@ const BarChart = () => {
         options={{
           scales: {
             x: {
-              grid:{
-                display: false
-              }
+              grid: {
+                display: false,
+              },
             },
           },
-          plugins:{
-            legend:{
-                align:'end'
-            }
-          }
+          plugins: {
+            legend: {
+              align: "end",
+            },
+          },
         }}
         data={{
           labels: ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri"],

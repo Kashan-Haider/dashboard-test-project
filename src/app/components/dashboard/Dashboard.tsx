@@ -8,7 +8,7 @@ import Balance from "./components/balance/Balance";
 
 const Dashboard = () => {
   return (
-    <div className="bg-primary px-3 lg:p-5">
+    <div className="bg-primary p-5 md:px-3 lg:p-5">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-5 my-5">
         <div className="md:col-span-3">
           <MyCards />
@@ -22,15 +22,15 @@ const Dashboard = () => {
           <Activity />
         </div>
         <div className="md:col-span-2">
-          <Expense/>
+          <Expense />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-11 lg:grid-cols-5 gap-5 my-5" >
-        <div className="md:col-span-5 lg:col-span-2" >
-          <Transfer/>
+      <div className="grid grid-cols-1 md:grid-cols-11 lg:grid-cols-5 gap-5 my-5">
+        <div className="md:col-span-5 lg:col-span-2">
+          <Transfer />
         </div>
-        <div className="md:col-span-6 lg:col-span-3" >
-          <Balance/>
+        <div className="md:col-span-6 lg:col-span-3">
+          <Balance />
         </div>
       </div>
     </div>
